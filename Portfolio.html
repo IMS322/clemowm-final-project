@@ -1,0 +1,134 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale = .5,width=device-width"/>
+<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+<title>Mariah Clemow</title>
+<link href="index.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="logoimg">
+<img src="Images/logo.png" alt="Mariah Clemow's logo" style="width: 235px; height:180px;">
+</div>
+
+<!--Add Sharing Buttons-->
+    <button id="Linkedin" onclick="liFunction()" type="submit-button"> <img src="Images/Linkedin.png"></button> 
+        <br>
+        <br>
+    <button id="Pinterest"onclick="PiFunction()" type="submit-button"> <img src="Images/pinterest.jpg"></button>
+        <br>
+        <br>
+    <button id="Instagram" onclick="IiFunction()" type="submit-button"> <img src="Images/instagram.jpg"></button>
+        <br>
+        <br>
+    
+    <!-- Add Profile image  -->
+<div class= "parent">
+    <img src="Images/me.jpeg" class="profileimg" alt="Picture of Mariah" style="width:375px;height:500px;">
+<div class="top-right">
+    <h2>Mariah's digital design portfolio</h2>
+    <br>
+    <h3>Design gallery can be found below</h3>
+</div>
+</div>
+
+
+<!--Add grid of design-->
+<div class="grid">
+    <div class="grid-item">
+        <img src= "Images/cartoon.jpg">  
+    </div>
+    <div class="grid-item">
+        <img src="Images/interview.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="Images/CreativeResumecopy.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="Images/Clemowm_Illustrator01_SPR21.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="Images/brewing.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="Images/Project3outline.jpg">
+    </div>
+    <div class="grid-item">
+        <img src="Images/Project4Project.jpg">
+  </div>
+  <div class="grid-item">
+    <img src="Images/RebrandMoodBoard.jpg">
+  </div>
+    <div class="grid-item">
+    <img src="Images/drawing.jpg">
+</div>
+<div class="grid-item">
+    <img src="Images/AuditReport.png">
+</div>
+<div class="grid-item">
+    <img src="Images/MoodBoardPosterCollage.jpg">
+</div>
+<div class="grid-item">
+    <img src="Images/Campaign3.jpg">
+</div>
+  </div>
+
+  <h4>Contact Me</h4>
+  <br>
+  <div id="Contact">
+    <form id="ContactMe" onsubmit="saveContact(event)">
+    <div id="profile-input">
+    <label for="name">Name:</label>
+    <span id="name-value" class="display"></span>
+    <input type="text" id="name" placeholder="Enter name" oninput="firstNameHandler(event)">
+        <br>
+        <br>
+    <label for="email">Email:</label><span id="email-value" class="display"></span>
+    <input type="text" id="email" placeholder="Enter email" oninput="EmailHandler(event)">
+
+    <p>Message:</p>
+    <textarea rows="7" id="message-description"></textarea>
+    <br>
+    <input id="save-btn" type="submit" value="save">
+</div>
+</form>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--Add Input/Contact spot-->
+<footer>
+Mariah Clemow
+<br>
+<br>
+Emerging Technology of Business and Design
+<br>
+Minor in Rhetoric and Writing
+<br>
+<br>
+clemowm@miamioh.edu
+<br>
+Miami University | Class of 2023
+
+</footer>
+<script src="index.js" async defer></script>
+</body>
+</html>

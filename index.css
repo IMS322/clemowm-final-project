@@ -1,0 +1,136 @@
+h1 {
+    font-family: 'Prata', serif;
+    font-size: 46px;
+  }
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+}
+body {
+    background-color: #dedac8;
+    margin: 15px
+}
+.logoimg{
+    display: block;
+    position: relative;
+    justify-content: center;
+    height: 185px;
+    width: 235px;
+    margin: auto;
+}
+.parent {
+    display: flex;
+    justify-content: left;
+    background-color: #344a2f;
+    font-family: 'Lato', sans-serif;
+    padding: 100px;
+    margin: 25px;
+    font-weight: 300;
+    font-size: 16px;
+}
+button {
+    display: inline-block;
+    position: fixed;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 30px;
+    border: none;
+}
+
+#Linkedin img{
+    float: left;
+    height: 30px;  
+    width: 30px;
+    cursor: hand;
+    border: none;
+}
+
+#Pinterest img{
+    border: none;
+    position: vertical;
+    height: 30px;  
+    width: 30px;
+    float: left;
+    cursor: hand;
+    border: none;
+
+}
+#Instagram img{
+    border: none;
+    position: vertical;
+    height: 30px;  
+    width: 30px;
+    float: left;
+    cursor: hand;
+    border: none;
+}
+
+.top-right {
+    position: absolute;
+    top: 500px;
+    left: 625px;
+    color: #dedac8;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.grid-item {
+    width: 200px;
+    height: 300px;
+    display: block;
+    margin: 50px; 
+    padding: 20px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.grid-item:hover {
+    opacity: 0.1;
+  }
+
+#profile-input {
+    float: right;
+    font-family: 'Lato', sans-serif;
+    color:#344a2f;
+    padding-right: 580px;
+    font-size: 20px;
+}
+.save-btn {
+    border: none;
+    font-family: 'Lato', sans-serif;
+    color: #344a2f;
+    background-color: #dedac8;
+    font-size: 20px;
+
+}
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #dedac8;
+    font-size: 30px;
+}
+h4 {
+    text-align: center;
+    font-family: 'Prata', serif;
+    color: #344a2f;
+    font-size: 35px;
+}
+footer{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-weight: bold;
+    color: #dedac8;
+    background-color: #344a2f;
+    margin: 25px;
+    padding: 25px;
+}
